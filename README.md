@@ -21,7 +21,8 @@
 ░░░Active Directory Penetration Testing Tool░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
-[demo](https://raw.githubusercontent.com/RayRRT/SpicyAD/refs/heads/master/demo3.gif)
+![demo](https://raw.githubusercontent.com/RayRRT/SpicyAD/refs/heads/master/demo3.gif)
+
 ---
 
 ## Table of Contents
