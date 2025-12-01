@@ -184,7 +184,7 @@ Required for non-domain-joined machines:
 |------|-------------|---------|
 | `/domain:<fqdn>` | Target domain FQDN | `/domain:evilcorp.net` |
 | `/dc-ip:<ip>` | Domain Controller IP | `/dc-ip:10.10.10.10` |
-| `/user:<user>` | Username for auth | `/user:EVILCORP\jsmith` |
+| `/user:<user>` | Username for auth | `/user:elliot` |
 | `/password:<pwd>` | Password for auth | `/password:P@ssw0rd` |
 | `/dns:<ip>` | DNS server (optional) | `/dns:10.10.10.10` |
 
