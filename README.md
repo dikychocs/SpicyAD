@@ -64,50 +64,21 @@
 
 SpicyAD is a C# Active Directory penetration testing tool designed for authorized security assessments. It combines multiple AD attack techniques into a single, easy-to-use tool with both interactive and command-line interfaces.
 
-### Key Capabilities
+| Category | Capabilities |
+|----------|--------------|
+| **Enumeration** | Domain info, DCs, users, computers, shares (SYSVOL/NETLOGON/all), trusts, delegations (Unconstrained/Constrained/RBCD), LAPS, certificate templates (ESC1-4, ESC8) |
+| **Kerberos Attacks** | Kerberoasting (RC4/AES), AS-REP Roasting, Password Spray, Pass-the-Ticket, Targeted Kerberoasting |
+| **ADCS Attacks** | ESC1 (arbitrary SAN), ESC4 (Template Hijacking), PKINIT + UnPAC-the-hash |
+| **Credentials** | Shadow Credentials, RBCD |
+| **AD Management** | Add/delete users, add machines, group management, password changes |
 
-| Category | Features |
-|----------|----------|
-| **Enumeration** | Domain info, DCs, users, computers, shares, trusts, delegations, LAPS, ESC1, ESC4, webenrollment |
-| **Kerberos Attacks** | Kerberoasting, AS-REP Roasting, Password Spray, Ticket Dump, Pass-the-Ticket |
-| **ADCS Attacks** | ESC1, ESC4, PKINIT authentication, certificate enumeration |
-| **Credential Attacks** | Shadow Credentials, RBCD, targeted Kerberoasting |
-| **Object Management** | Add/delete users, add machines, group management, password changes |
+**Automatic Attack Chains:**
 
-### Attack Chaining
-
-SpicyAD automatically chains attacks for seamless exploitation:
-- **ESC4 → ESC1 → PKINIT → Restore** - Modify template, request cert, authenticate, restore
-- **ESC1 → PKINIT** - After certificate request, authenticate and extract NT hash
-- **Shadow Credentials → PKINIT** - After adding shadow cred, authenticate and extract NT hash
-
----
-
-## Features
-
-### Enumeration
-- **Domain Information** - Domain name, mode, forest, machine account quota
-- **Domain Controllers** - List all DCs with IPs, OS versions, sites, and roles
-- **Domain Trusts** - Enumerate trust relationships
-- **Users** - List users with security-relevant flags (DONT_REQ_PREAUTH, HAS_SPN, DISABLED)
-- **Computers** - Enumerate domain computers with IP resolution
-- **Shares** - SYSVOL/NETLOGON enumeration with interesting file detection
-- **ALL Shares** - Enumerate shares on all domain computers
-- **Kerberos Delegation** - Unconstrained, Constrained, and RBCD enumeration
-- **LAPS** - Read local administrator passwords
-- **Certificate Templates** - Full enumeration with vulnerability detection (ESC1-4, ESC8)
-
-### Attacks
-- **Kerberoasting** - Extract TGS hashes (RC4, AES128, AES256) for offline cracking
-- **AS-REP Roasting** - Target users without pre-authentication
-- **Targeted Kerberoasting** - Set SPN on users you have write access to
-- **Password Spray** - Safe Kerberos-based password spraying
-- **Pass-the-Ticket (PTT)** - Import .kirbi tickets into current session
-- **Shadow Credentials** - Whisker-like attack via msDS-KeyCredentialLink
-- **PKINIT Authentication** - Certificate-based TGT requests with UnPAC-the-hash
-- **ESC1** - Request certificates with arbitrary SAN
-- **ESC4** - Template Hijacking full attack chain
-- **RBCD Attack** - Resource-Based Constrained Delegation
+| Chain | Flow |
+|-------|------|
+| ESC4 full | Modify template → ESC1 → PKINIT → Restore |
+| ESC1 | Request cert → PKINIT → Extract NT hash |
+| Shadow Creds | Add shadow cred → PKINIT → Extract NT hash |
 
 ---
 
