@@ -58,6 +58,15 @@
 
 ---
 
+## TODO
+- Delegations attack
+- SCCM enumeration
+- More ADCS
+- Better share enumeration...
+
+
+## Disclaimer: This tool was created using my knowledge of Kerberos and Active Directory, together with assistance from Claude-Code. We may be wrong, so research, test, and modify as needed, it’s your responsibility :)
+
 ## Description
 
 SpicyAD is a C# Active Directory penetration testing tool designed for authorized security assessments. It combines multiple AD attack techniques into a single, easy-to-use tool with both interactive and command-line interfaces.
