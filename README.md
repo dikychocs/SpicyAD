@@ -58,7 +58,7 @@
 
 ---
 
-## Disclaimer: This tool was created using my knowledge of Kerberos and Active Directory, together with assistance from Claude-Code. We may be wrong, so research, test, and modify as needed, it’s your responsibility :)
+## Disclaimer: This tool was created using my knowledge of Kerberos and Active Directory, together with assistance from Claude-Code. We both may be wrong, so research, test, and modify as needed, it’s your responsibility :)
 
 ## Description
 
