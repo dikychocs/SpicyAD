@@ -66,7 +66,7 @@ SpicyAD is a C# Active Directory penetration testing tool designed for authorize
 
 | Category | Features |
 |----------|----------|
-| **Enumeration** | Domain info, DCs, users, computers, shares, trusts, delegations, LAPS, certificates |
+| **Enumeration** | Domain info, DCs, users, computers, shares, trusts, delegations, LAPS, ESC1, ESC4, webenrollment |
 | **Kerberos Attacks** | Kerberoasting, AS-REP Roasting, Password Spray, Ticket Dump, Pass-the-Ticket |
 | **ADCS Attacks** | ESC1, ESC4, PKINIT authentication, certificate enumeration |
 | **Credential Attacks** | Shadow Credentials, RBCD, targeted Kerberoasting |
@@ -124,7 +124,7 @@ dotnet build SpicyAD.csproj -c Release
 msbuild SpicyAD.csproj /p:Configuration=Release
 ```
 
-### Output
+### Or just compile with VS
 ```
 bin\Release\net48\SpicyAD.exe
 ```
