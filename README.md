@@ -10,7 +10,7 @@
     Active Directory Penetration Testing Tool
                   By @_RayRT
 ```
-
+![Demo](demo.gif)
 ---
 
 ## Table of Contents
@@ -1025,7 +1025,7 @@ This tool is intended for authorized penetration testing and security research o
 
 ## Credits
 
-**Author**: @_RayRT
+YOU, the real infosec gurus, from whom I have learned so much. (Eldar samir, 
 
 ## License
 
