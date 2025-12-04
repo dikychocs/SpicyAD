@@ -991,7 +991,7 @@ This tool is intended for authorized penetration testing and security research o
 
 ## Credits
 
-YOU, the real infosec gurus, from whom I have learned so much. (Eldar samir, HarmJ0y,  Charlie Bromberg ...)
+YOU, the real infosec gurus, from whom I have learned so much. (Elad samir, HarmJ0y,  Charlie Bromberg ...)
 
 ## License
 
